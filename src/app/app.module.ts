@@ -17,6 +17,8 @@ import { ManageStocksComponent } from './components/components/manage-stocks/man
 import { ManageTokensComponent } from './components/components/manage-tokens/manage-tokens.component';
 import { ManageStationsComponent } from './components/components/manage-stations/manage-stations.component';
 import { PaymentComponent } from './components/components/payment/payment.component';
+import { UpdateTokenComponent } from './components/components/manage-tokens/components/update-token/update-token.component';
+import { UpdatePaymentComponent } from './components/components/payment/components/update-payment/update-payment.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { PaymentComponent } from './components/components/payment/payment.compon
     ManageStocksComponent,
     ManageTokensComponent,
     ManageStationsComponent,
-    PaymentComponent
+    PaymentComponent,
+    UpdateTokenComponent,
+    UpdatePaymentComponent
   ],
   imports: [
     BrowserModule,
